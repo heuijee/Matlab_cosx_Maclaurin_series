@@ -24,6 +24,8 @@ output: fx(estimated value), ea(approximate relative error), iter(number of iter
 변수의 초기값 설정(default)
 
     while (1)
+    
+무한 루프를 돌며
         
         solold=sol;
         
@@ -40,6 +42,7 @@ output: fx(estimated value), ea(approximate relative error), iter(number of iter
     if ea <= es | iter >=maxit , break, end
 
     end
+    
     cosx=sol;
         fprintf('absolute relative error: %d\n number of iterations: %d ',ea, iter);
     end
