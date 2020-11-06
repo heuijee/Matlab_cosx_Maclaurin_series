@@ -30,6 +30,8 @@ output: fx(estimated value), ea(approximate relative error), iter(number of iter
         solold=sol;
         
         sol=sol+(-1)^(iter)*x^(2*iter)/factorial(2*iter);
+
+각 iteration마다의 추정값을 계산한뒤 갱신해준다.        
         
         iter=iter+1;
     
@@ -43,6 +45,8 @@ output: fx(estimated value), ea(approximate relative error), iter(number of iter
     
     if ea <= es | iter >=maxit , break, end
 
+approximate relative error가 앞서 정해둔 값보다 작아지면 루프를 break한다.
+    
     end
     
 ```
