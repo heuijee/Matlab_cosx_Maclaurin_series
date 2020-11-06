@@ -1,6 +1,6 @@
 # Matlab_cosx_Maclaurin_series
 #1. Maclaurin series
-<p align="left"><img width="10%" src="images/yaktocat.png" /></p> 
+
 
 ```
 function [cosx,ea,iter] = cosx_Maclaurin_series(x,es,maxit)
