@@ -36,6 +36,8 @@ output: fx(estimated value), ea(approximate relative error), iter(number of iter
     if sol ~=0
         
         ea=abs((sol-solold)/sol)*100;
+        
+   approximate relative error의 기본식을 정의해준다.
     
     end
     
@@ -43,8 +45,4 @@ output: fx(estimated value), ea(approximate relative error), iter(number of iter
 
     end
     
-    cosx=sol;
-        fprintf('absolute relative error: %d\n number of iterations: %d ',ea, iter);
-    end
-
 ```
