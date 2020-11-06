@@ -7,6 +7,7 @@
 a=0일때의 형태를 매클로린 급수라고 한다.
 
 #2. Matlab으로 함수의 매클로린 급수를 표현한 코드
+함수이름 정의
 ```
 function [cosx,ea,iter] = cosx_Maclaurin_series(x,es,maxit)
 ```
