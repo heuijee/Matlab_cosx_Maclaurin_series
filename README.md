@@ -1,5 +1,6 @@
 # Matlab_cosx_Maclaurin_series
 #1. Maclaurin series
+![f(x)](https://user-images.githubusercontent.com/58385691/98422679-bb710f00-20cf-11eb-9d49-78f2bf13bbae.JPG)
 
 
 ```
