@@ -1,12 +1,12 @@
 # Matlab_cosx_Maclaurin_series
-#1. Maclaurin series
+# 1. Maclaurin series
 함수를 멱급수 형태로 나타냈을때의 모습
 
 ![f(x)](https://user-images.githubusercontent.com/58385691/98422679-bb710f00-20cf-11eb-9d49-78f2bf13bbae.JPG)
 
 a=0일때의 형태를 매클로린 급수라고 한다.
 
-#2. Matlab으로 cos 함수의 매클로린 급수를 표현한 코드
+# 2. Matlab으로 cos 함수의 매클로린 급수를 표현한 코드
 
 함수이름, 변수 정의
 ```
